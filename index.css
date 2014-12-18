@@ -1,0 +1,76 @@
+body{
+	background-color:#683656;
+	background-attachment:fixed;
+	width:1024px;
+	margin-left:50%;
+	position:relative;
+	left:-512px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+
+#content_bg{
+	display:none;
+	width:994px;
+	height:1481px;
+	margin-left:11px;
+	background-image:url(Images/bg913.jpg);
+	border-left: 3px solid #b3284f;
+	border-right: 3px solid #b3284f;
+	position:absolute;
+	top:0px;
+	z-index:-1;
+}
+
+#pageContent{ display:none}
+
+#heading1{
+	background: transparent url(Images/sprite17.jpg) -60px -445px;
+	width:360px;
+	height:65px;
+	margin-left:558px;
+	margin-top:-960px;
+}
+
+#about{
+	background:transparent url(Images/sprite17.jpg) 0px -525px;
+	width:440px;
+	height:400px;
+	margin-left:20px;
+	margin-top:20px;
+}
+
+#components{
+	background:transparent url(Images/sprite17.jpg) 0px -925px;
+	width:440px;
+	height:450px;
+	margin-left:20px;
+	margin-top:20px;
+}
+
+#recharge{
+	background:transparent url(Images/sprite17.jpg) 450px -975px;
+	width:450px;
+	height:500px;
+	margin-left:520px;
+	margin-top:-400px;
+}
+
+#health{
+	background:transparent url(Images/sprite17.jpg) -60px -65px;
+	width:840px;
+	height:400px;
+	margin-left:100px;
+	margin-top:860px;
+}
+
+footer{
+	font-size:10px;
+	color:#CCC;
+	background-color:#BD294D;
+	text-align:center;
+	width:994px;
+	height:15px;
+	margin-left:14px;
+	margin-top:900px;
+}
+

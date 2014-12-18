@@ -1,0 +1,51 @@
+#navWrapper{
+	display:none;
+	height: 45px;
+	width: 1095px;
+	margin-left:-37px;
+	margin-top:70px;
+	background-image:url(Images/banner3.gif);
+	-moz-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+	-khtml-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+	-webkit-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);	
+}
+
+#mainMenu {
+	width:700px;
+	height:45px;
+	margin-left:200px;
+}
+	
+#mainMenu div{
+	height:45px;
+	display:inline-block;
+	position:relative;	
+}
+
+div #index{
+	width:75px;
+	right:15px;
+}
+
+div #promos{
+	width:100px;
+	right:5px;
+}
+
+div #locations{
+	width:125px;
+	left:5px;	
+}
+
+div #flavor{
+	width:200px;
+	left:20px;	
+}
+
+div #access{
+	width:140px;
+	left:40px;
+}
+
+#mainMenu div:hover{cursor:pointer}
+

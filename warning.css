@@ -1,0 +1,78 @@
+#warning{
+	color:#CB99CC;
+	font-size:20px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	height:440px;
+	width:640px;
+	border: 1px solid transparent;
+	background-image:url(Images/IMAG0134.jpg);
+	margin-top:100px;
+	margin-left:191px;
+}
+
+#att{
+	color: red;
+	font-size:36px;
+}
+
+#warning_msg{
+	width:600px;
+	border: 1px solid transparent;
+	text-align:center;
+	margin-top:30px;
+	margin-left:20px;
+}
+
+#buttons{margin-top:100px}
+
+#yes, #no{
+	font-size:16px;
+	font-weight:bold;
+}
+
+#yes{margin-left:4%;}
+
+#no{
+	margin-left:60%;
+	position:relative;
+	bottom:20px;
+}
+
+#enter, #exit {
+   border-top: 1px solid #c997f7;
+   background: #d6d6d6;
+   background: -webkit-gradient(linear, left top, left bottom, from(#b505f0), to(#d6d6d6));
+   background: -webkit-linear-gradient(top, #b505f0, #d6d6d6);
+   background: -moz-linear-gradient(top, #b505f0, #d6d6d6);
+   background: -ms-linear-gradient(top, #b505f0, #d6d6d6);
+   background: -o-linear-gradient(top, #b505f0, #d6d6d6);
+   padding: 8.5px 17px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: #0c0fab;
+   font-size: 16px;
+   font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+#enter:hover, #exit:hover {
+   border-top-color: #FF6;
+   background: #FF6;
+   color: #90F;
+   }
+#enter:active{
+   border-top-color: #0C0;
+   background: #0C0;
+   }
+
+#exit:active{
+   border-top-color: #C00;
+   background: #C00;
+   }
+
+#enter{margin-left:5%}
+
+#exit{margin-left:16%}
+

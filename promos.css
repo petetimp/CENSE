@@ -1,0 +1,37 @@
+body{
+	background-color:#683656;
+	background-attachment:fixed;
+	width:1024px;
+	margin-left:50%;
+	position:absolute;
+	left:-512px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+
+#content_bg{
+	width:994px;
+	height:796px;
+	margin-left:11px;
+	background-image:url(Images/bg913.jpg);
+	border-left: 3px solid #de2c07;
+	border-right: 3px solid #de2c07;
+	position:absolute;
+	top:0px;
+	z-index:-1;
+}
+
+#pageContent{
+	margin-left:14px;
+	margin-top:0px;
+}
+
+footer{
+	font-size:10px;
+	color:#000;
+	background-color:#de2c07;
+	text-align:center;
+	width:994px;
+	height:15px;
+	margin-left:14px;
+	margin-top:14px;
+}
